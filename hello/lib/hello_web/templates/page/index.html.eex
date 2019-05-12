@@ -1,6 +1,5 @@
 <section class="phx-hero">
-  <h1><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h1>
-  <p>A productive web framework that<br/>does not compromise speed or maintainability.</p>
+  <h1><%= gettext "Welcome to %{name}'s Hello World take of %{framework_name}!", name: "Josh", framework_name: "Phoenix Framework" %></h1>
 </section>
 
 <section class="row">
